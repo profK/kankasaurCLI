@@ -6,12 +6,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Campaigns.fs" />
         <Compile Include="FSCli.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Kanka.NET\Kanka.NET\Kanka.NET.fsproj" />
     </ItemGroup>
 
 </Project>

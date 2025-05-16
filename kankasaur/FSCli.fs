@@ -4,6 +4,9 @@ open System.CommandLine
 open Microsoft.FSharp.Reflection
 
 module FSCli =
+    type ICommandList =
+        abstract member Description: unit->string
+        abstract member Execute: unit -> unit
     let root = RootCommand("Kanka.Net CLI")
     let rec SubParseDU (duType: Type) (parentCMD: Command) : unit =
         if FSharpType.IsUnion(duType) then
@@ -20,10 +23,7 @@ module FSCli =
                     let fieldName = field.Name
                     let fieldType = field.PropertyType
                     if FSharpType.IsUnion(fieldType) then
-                        // If the field is a union type, recursively parse it
-                        let subSubCommand = Command(fieldName, "tbd")
-                        subCommand.Add(subSubCommand)
-                        SubParseDU fieldType subSubCommand
+                        SubParseDU fieldType subCommand
                     else
                         // Otherwise, add the field as an option
                         let option = Option<string>(fieldName, description = "tbd")

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "kankasaur", "kankasaur\kankasaur.fsproj", "{4240F76F-A1F6-4BC4-8207-EDD4360DF48E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kanka.NET", "..\Kanka.NET\Kanka.NET\Kanka.NET.fsproj", "{7E1A3884-9948-4C84-8829-ECC16E481E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4240F76F-A1F6-4BC4-8207-EDD4360DF48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4240F76F-A1F6-4BC4-8207-EDD4360DF48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4240F76F-A1F6-4BC4-8207-EDD4360DF48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
