@@ -1,0 +1,23 @@
+﻿module kankasaur.Maps
+
+open Kanka.NET
+open kankasaur.JSONIO
+
+let ListMaps (campaignID: string) =
+    // Assuming GetMaps is a function that fetches maps for a given campaign ID
+    let maps = Kanka.GetMaps(campaignID)
+    maps.GetProperty("data").EnumerateArray()
+    |> Seq.iter (fun map ->
+            let name = map.GetProperty("name").GetString()
+            let id = map.GetProperty("id").GetInt32()
+            printfn $"{name} {id}"
+    )
+let GetMap (campaignID: string) (mapID:string) =
+    // Assuming GetMap is a function that fetches a specific map for a given campaign ID
+    Kanka.GetMap campaignID mapID
+    |> fun jel ->
+        formatJsonElement jel
+        |> printfn "%s"
+    
+ 
+    

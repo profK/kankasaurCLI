@@ -1,37 +1,29 @@
-﻿open System
-open System.IO
-open System.CommandLine
-open FSCli
-open FSCli.FSCli
-open Kanka
-open Kanka.NET
-open Kanka.NET.Kanka
+﻿
+open Argu
+open Kanka.NET.argu
 open kankasaur.Campaigns.Campaigns
-
-// actions
-
-type ListCmds =
-    | Campaigns
-    | Maps of campaignID:string
-    interface ICommandList with
-        member this.Description() =
-            match this with
-            | Campaigns -> "List all campaigns"
-            | Maps campaignID -> $"List all maps for campaign {campaignID}"
-        member this.Execute()  =  
-            match this with
-            | Campaigns -> ListCampaigns()
-            | Maps campaign -> printfn "list-maps"
-type rootCmds =
-    | List of ListCmds
-    | Create
-    | Update
-    | Delete
+open kankasaur.Maps
 
 [<EntryPoint>]
 let main argv =
-    let rootCommand = FSCli.ParseDU typedefof<rootCmds>
+    let parser = ArgumentParser.Create<RootCommands>(programName = "kankasaur")
+    let results = parser.ParseCommandLine(argv, raiseOnUsage = true)
 
-    // Parse and invoke the command line
-    rootCommand.InvokeAsync(argv)
+    match results.GetSubCommand() with
+    | List subCommand ->
+        match subCommand.GetAllResults() with
+        | [ Campaigns ] -> ListCampaigns()
+        | [ Maps campaignID ] -> ListMaps campaignID
+        | _ -> printfn "Invalid list command."
+    | Get  subCommand ->
+        match subCommand.GetAllResults() with
+        | [ Campaign id ] -> GetCampaign id
+        | [ Map  (campaignID ,  mapID) ] ->
+                    GetMap campaignID mapID
+        | _ -> printfn "Invalid list command."
+        
+    | Create -> printfn "Create command not implemented."
+    | Update -> printfn "Update command not implemented."
+    | Delete -> printfn "Delete command not implemented."
+    | _ -> printfn "Unknown command."
     0

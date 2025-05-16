@@ -1,11 +1,14 @@
 ﻿module kankasaur.Campaigns
 
 open System.Reflection
-open Kanka.NET.Kanka
+open Kanka.NET
+open kankasaur.JSONIO
+
+
 
 module Campaigns =
     let ListCampaigns() =
-        GetCampaigns()
+        Kanka.GetCampaigns()
         |> fun jel ->
             jel.GetProperty "data"
             |> fun data ->
@@ -15,4 +18,11 @@ module Campaigns =
                         let name = camp.GetProperty("name").GetString()
                         let id = camp.GetProperty("id").GetInt32()
                         printfn $"{name} {id}"
-                    )         
+                    )
+                
+    let GetCampaign (id: string) =
+        Kanka.GetCampaign(id)
+        |>  fun jel ->
+                  formatJsonElement jel
+                  |> printfn"%s"
+               
