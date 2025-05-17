@@ -4,6 +4,14 @@ open Kanka.NET.argu
 open kankasaur.Campaigns.Campaigns
 open kankasaur.Maps
 
+type fileInfo = {
+    filename:string option;
+    filepath:string option;
+}
+let mutable fileInfo = {
+    filename = None;
+    filepath = None;
+}
 [<EntryPoint>]
 let main argv =
     let parser = ArgumentParser.Create<RootCommands>(programName = "kankasaur")
@@ -25,5 +33,7 @@ let main argv =
     | Create -> printfn "Create command not implemented."
     | Update -> printfn "Update command not implemented."
     | Delete -> printfn "Delete command not implemented."
+    | F fileName -> fileInfo <- { fileInfo with filename = Some fileName }
+    | D filePath-> fileInfo <- { fileInfo with filepath = Some filePath }
     | _ -> printfn "Unknown command."
     0
