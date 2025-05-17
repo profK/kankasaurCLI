@@ -31,8 +31,9 @@ type RootCommands =
     | [<CliPrefix(CliPrefix.None)>] Create
     | [<CliPrefix(CliPrefix.None)>] Update
     | [<CliPrefix(CliPrefix.None)>] Delete
-    | [<CliPrefix(CliPrefix.Dash)>] F of string
-    | [<CliPrefix(CliPrefix.Dash)>] D of string
+    | [<AltCommandLine("-f")>] F of fileName: string
+    | [<AltCommandLine("-d")>] D of filePath: string
+
     interface IArgParserTemplate with
         member s.Usage =
             match s with
@@ -41,7 +42,8 @@ type RootCommands =
             | Update   -> "Update a resource: kankasaur update <type> <type params>."
             | Delete  -> "Delete a resource: kankasaur delete <type> <type params>."
             | Get _ -> "Get a resource: kankasaur get <type> <resource id>."
-
-
+            | F _ -> "Specify the output file name."
+            | D _ -> "Specify the output file path."
+            
 
 
