@@ -76,8 +76,8 @@ let main argv =
         
     | Create subCommand ->
         match subCommand.GetAllResults() with
-        | [ CreateSubCommands.MapMarker (mapID , name, x, y) ] ->
-            CreateMapMarker name mapID (x, y) 1 1
+        | [ CreateSubCommands.MapMarker (campaignID, mapID,name, x, y )] ->
+            CreateMapMarker campaignID mapID  name (x, y) 1 1 (GetOutputStream())
         |_ -> printfn "Invalid create command."
     | Update -> printfn "Update command not implemented."
     | Delete -> printfn "Delete command not implemented."

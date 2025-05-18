@@ -76,8 +76,8 @@ module GetSubCommands     =
     type CreateSubCommands =
         | [<CliPrefix(CliPrefix.None)>] Campaign of campaignID: string
         | [<CliPrefix(CliPrefix.None)>] Map of campaignID: string * mapID: string
-        | [<CliPrefix(CliPrefix.None)>]
-            MapMarker of mapID: string * name:string * x:float * y:float 
+        | [<CliPrefix(CliPrefix.None)>] MapMarker of 
+            campaignID:string * mapID: string * name:string *            x:float * y:float 
         interface IArgParserTemplate with
             member s.Usage =
                 match s with

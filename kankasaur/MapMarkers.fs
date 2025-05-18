@@ -22,8 +22,9 @@ let GetMapMarkers (campaignID:string) (mapID:string) (outStream:Stream)=
         |> writer.WriteLine
         ()
         
-let CreateMapMarker (name:string) (mapID:string) (location: float * float)
-    (iconType:int) (shapeType:int)=
+let CreateMapMarker (campaignID:string) (mapID:string)
+    (name:string) (location: float * float)
+    (iconType:int) (shapeType:int) (outStream)=
     let newMarker = {
         name = name
         map_id = mapID
@@ -32,10 +33,15 @@ let CreateMapMarker (name:string) (mapID:string) (location: float * float)
         icon = iconType
         shape_id = shapeType
     }
-    // for testing purposes
+    use writer = StreamWriter (outStream, leaveOpen = true)
     let options = JsonSerializerOptions(PropertyNamingPolicy = JsonNamingPolicy.CamelCase)
-    let jsonWithCamelCase = JsonSerializer.Serialize(newMarker, options)
-    printfn "CamelCase JSON: %s" jsonWithCamelCase
+    JsonSerializer.Serialize(newMarker, options)
+    |> Kanka.CreateMapMarker campaignID mapID
+    |> fun jel ->
+        formatJsonElement jel
+        |> writer.WriteLine
+        ()
+    
     
     
     
