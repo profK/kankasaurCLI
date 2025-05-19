@@ -62,6 +62,8 @@ let main argv =
         match subCommand.GetAllResults() with
         | [ ListSubCommands.Campaigns ] -> ListCampaigns (GetOutputStream())
         | [ ListSubCommands.Maps campaignID ] -> ListMaps campaignID (GetOutputStream())
+        | [ ListSubCommands.MarkerGroups (campaignID, mapID)] ->
+            ListMarkerGroups campaignID mapID (GetOutputStream())
         | _ -> printfn "Invalid list command."
     | Get subCommand ->   
         match subCommand.GetAllResults() with

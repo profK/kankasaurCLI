@@ -27,4 +27,13 @@ let CreateMarkerGroup  (campaignID:string) (mapID:string)
     |> fun jel ->
         formatJsonElement jel
         |> writer.WriteLine
-        () 
+        ()
+let ListMarkerGroups (campaignID:string) (mapID:string) (outStream:Stream)=
+    use writer = StreamWriter (outStream, leaveOpen = true)
+    writer.AutoFlush <- true
+    // Assuming GetMap is a function that fetches a specific map for a given campaign ID
+    Kanka.GetMarkerGroups campaignID mapID
+    |> fun jel ->
+        formatJsonElement jel
+        |> writer.WriteLine
+        ()
