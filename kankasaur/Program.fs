@@ -1,10 +1,12 @@
 ﻿
 open System.IO
 open Argu
+open Kanka.NET
 open Kanka.NET.argu
 open kankasaur.Campaigns.Campaigns
 open kankasaur.MapMarkers
 open kankasaur.Maps
+open kankasaur.MarkerGroup
 
 type fileInfo = {
     filename:string option;
@@ -14,6 +16,7 @@ let mutable fileInfo = {
     filename = None;
     filepath = None;
 }
+let mutable groupID: string option = None
 let mutable outputStream: Stream option = None
 let UpdateOutputStream () =
     match fileInfo.filepath with
@@ -34,15 +37,7 @@ let GetOutputStream() =
     | Some stream -> stream
     | None -> System.Console.OpenStandardOutput()
     
-                
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 [<EntryPoint>]
 let main argv =
@@ -58,6 +53,9 @@ let main argv =
         fileInfo <-
             { fileInfo with filepath = Some filePath }
         UpdateOutputStream ()
+    )
+    results.TryGetResult G |> Option.iter (fun groupid ->
+        groupID <- Some groupid
     )
     match results.GetSubCommand() with
     | List subCommand ->
@@ -78,6 +76,8 @@ let main argv =
         match subCommand.GetAllResults() with
         | [ CreateSubCommands.MapMarker (campaignID, mapID,name, x, y )] ->
             CreateMapMarker campaignID mapID  name (x, y) 1 1 (GetOutputStream())
+        | [ CreateSubCommands.MarkerGroup (campaignID, mapID,name)] ->
+            CreateMarkerGroup campaignID mapID name  (GetOutputStream())
         |_ -> printfn "Invalid create command."
     | Update -> printfn "Update command not implemented."
     | Delete -> printfn "Delete command not implemented."

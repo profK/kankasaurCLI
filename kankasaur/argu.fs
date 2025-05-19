@@ -66,7 +66,7 @@ module GetSubCommands     =
                 match s with
                 | Campaign _ -> "Get a campaign as a JSON file."
                 | Map _ -> "Get a map as a JSON file."
-                | Markers -> "Get map markers as a JSON file."
+                | MapMarkers _ -> "Get map markers as a JSON file."
  module CreateSubCommands       =    
     open System.IO
     open Kanka.NET
@@ -77,13 +77,16 @@ module GetSubCommands     =
         | [<CliPrefix(CliPrefix.None)>] Campaign of campaignID: string
         | [<CliPrefix(CliPrefix.None)>] Map of campaignID: string * mapID: string
         | [<CliPrefix(CliPrefix.None)>] MapMarker of 
-            campaignID:string * mapID: string * name:string *            x:float * y:float 
+            campaignID:string * mapID: string * name:string * x:float * y:float
+        | [<CliPrefix(CliPrefix.None)>] MarkerGroup of 
+            campaignID:string * mapID: string * name:string 
         interface IArgParserTemplate with
             member s.Usage =
                 match s with
                 | Campaign _ -> "Create a new campaign."
                 | Map _ ->  "Create a new map."
-                | MapMarker _ -> "Create a new map marker."       
+                | MapMarker _ -> "Create a new map marker."
+                | MarkerGroup _ -> "Create a new marker group."
 
 // Define root commands
 type RootCommands =
@@ -97,6 +100,7 @@ type RootCommands =
     | [<CliPrefix(CliPrefix.None)>] Delete
     | [<AltCommandLine("-f")>] F of fileName: string
     | [<AltCommandLine("-d")>] D of filePath: string
+    | [<AltCommandLine("-g")>] G of groupID: string
 
     interface IArgParserTemplate with
         member s.Usage =
@@ -108,6 +112,7 @@ type RootCommands =
             | Get _ -> "Get a resource: kankasaur get <type> <resource id>."
             | F _ -> "Specify the output file name."
             | D _ -> "Specify the output file path."
+            | G _ -> "Specify a group ID"
             
 
 

@@ -60,6 +60,19 @@ let makeMarkerObj (mapCoords: float * float) (name:string) (color:Color)
         obj["colour"] <- JsonValue.Create(colorToHex color)
         
 
-        
+let makeMarkerGroup (name:string)     (mapID:int) =
+    let groupTemplateStr =
+        """
+        {
+          "name": "The Rusty Anchor",
+          "map_id": 105967,
+          "visibility_id": 1
+        }
+        """
+    groupTemplateStr
+    |> createJsonObject
+    |> fun obj ->
+        obj["name"] <- JsonValue.Create(name)
+        obj["map_id"] <- JsonValue.Create(mapID)  
         
 

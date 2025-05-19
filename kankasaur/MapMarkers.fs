@@ -13,6 +13,11 @@ type CreateMarkerRec = {
     icon: int
     shape_id: int
 }
+type CreateGroupRec = {
+    group_name: string
+    map_id: string
+    marker_ids: int list
+}
 
 let GetMapMarkers (campaignID:string) (mapID:string) (outStream:Stream)=
     use writer = StreamWriter (outStream, leaveOpen = true)
@@ -44,7 +49,7 @@ let CreateMapMarker (campaignID:string) (mapID:string)
         formatJsonElement jel
         |> writer.WriteLine
         ()
-    
+
     
     
     

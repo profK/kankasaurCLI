@@ -7,6 +7,7 @@
 
     <ItemGroup>
         <Compile Include="JSONIO.fs" />
+        <Compile Include="MarkerGroup.fs" />
         <Compile Include="MapMarkers.fs" />
         <Compile Include="Campaigns.fs" />
         <Compile Include="Maps.fs" />
