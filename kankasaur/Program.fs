@@ -3,7 +3,8 @@ open System.IO
 open Argu
 open Kanka.NET
 open Kanka.NET.argu
-open kankasaur.Campaigns.Campaigns
+
+open Kanka.Net.Campaigns.Campaigns
 open kankasaur.MapMarkers
 open kankasaur.Maps
 open kankasaur.MarkerGroup

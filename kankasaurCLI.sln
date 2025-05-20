@@ -4,7 +4,9 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "kankasaur", "kankasaur\kank
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kanka.NET", "..\Kanka.NET\Kanka.NET\Kanka.NET.fsproj", "{7E1A3884-9948-4C84-8829-ECC16E481E22}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Foundry2Kanka", "Foundry2Kanka\Foundry2Kanka.fsproj", "{7A440CB8-382F-4E90-964F-1B37B8C23FE7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{0F50B2B3-A3B4-40AE-B5B0-508567669FBE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JsonMarkerLoader", "JsonMarkerLoader\JsonMarkerLoader.fsproj", "{125CF75E-55D7-4DBD-9458-4A4B9BCF0917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +22,12 @@ Global
 		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E1A3884-9948-4C84-8829-ECC16E481E22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A440CB8-382F-4E90-964F-1B37B8C23FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A440CB8-382F-4E90-964F-1B37B8C23FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A440CB8-382F-4E90-964F-1B37B8C23FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A440CB8-382F-4E90-964F-1B37B8C23FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125CF75E-55D7-4DBD-9458-4A4B9BCF0917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125CF75E-55D7-4DBD-9458-4A4B9BCF0917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125CF75E-55D7-4DBD-9458-4A4B9BCF0917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125CF75E-55D7-4DBD-9458-4A4B9BCF0917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{125CF75E-55D7-4DBD-9458-4A4B9BCF0917} = {0F50B2B3-A3B4-40AE-B5B0-508567669FBE}
 	EndGlobalSection
 EndGlobal

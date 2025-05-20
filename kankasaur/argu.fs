@@ -2,7 +2,7 @@
 
 open System.Text.Json
 open Argu
-open kankasaur.Campaigns.Campaigns
+
 
 
 // Define subcommands for "list"
