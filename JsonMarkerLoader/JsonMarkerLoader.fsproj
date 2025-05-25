@@ -8,11 +8,38 @@
 
     <ItemGroup>
         <Compile Include="Program.fs"/>
-        <Content Include="waterdeep_markers.json" />
+        <Content Include="Waterdeep_mapmarkers2.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Waterdeep_mapmarkers5.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Waterdeep_mapmarkers4.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Waterdeep_mapmarkers7.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Waterdeep_mapmarkers6.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="waterdeep_markers.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Waterdeep_mapmarkers3.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="kanka.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\Kanka.NET\Kanka.NET\Kanka.NET.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Data" Version="6.6.0" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,64 @@
+﻿{
+  "campaignID": "308822",
+  "mapID": "105967",
+  "groups": [{
+      "name": "placesAndStreets",
+      "id": "10863",
+      "markers": [
+        {
+          "name": "Deepwater Isle",
+          "color": "#FFFFFF",
+          "x": 1306,
+          "y": 6728,
+          "txt": "<p>Island</p>",
+          "ref": ""
+        },
+        {
+          "name": "Lhestyn's Court",
+          "color": "#FFFFFF",
+          "x": 1980,
+          "y": 1216,
+          "txt": "<p>Court</p>",
+          "ref": ""
+        },
+        {
+          "name": "Trollskull Alley",
+          "color": "#FFFFFF",
+          "x": 2381,
+          "y": 1612,
+          "txt": "<p>Street</p>",
+          "ref": ""
+        }
+      ]
+    },{
+      "name":"misc",
+      "id":"10865",
+      "markers":[
+        { "name":"Naingate", "color":"#AAAAAA", "x":671, "y":1393, "txt":"<p>Wizard's domicile.</p>", "ref":"$15"},
+        { "name":"Tessalar's Tower", "color":"#AAAAAA", "x":1557, "y":1309, "txt":"<p>Wizard's domicile.</p>", "ref":"$25"},
+        { "name":"Furjur the Flippant's residence", "color":"#AAAAAA", "x":934, "y":1023, "txt":"<p>House.</p>", "ref":"$67"},
+        { "name":"Hlethvagi Anteos's residence", "color":"#AAAAAA", "x":1327, "y":1417, "txt":"<p>Villa.</p>", "ref":"$68"},
+        { "name":"Stagdown Manse", "color":"#AAAAAA", "x":1076, "y":1091, "txt":"<p>Villa.</p>", "ref":"$69"},
+        { "name":"Myrna Cassalanter's residence", "color":"#AAAAAA", "x":1131, "y":1257, "txt":"<p>House</p>", "ref":"$78"},
+        { "name":"Melody Mount Walk (west)", "color":"#AAAAAA", "x":735, "y":2735, "txt":"<p>A magically lit tunnel that runs west up to the cliffs on which the New Olamn barding college is situated. The tunnel contains a little-known portal between Waterdeep and the keep in Rassalantar. The tunnel continuously resounds with music due to an ongoing concert known as the Neverending String of Pearls that is performed by bardic students from New Olamn in a small alcove in the tunnel.</p>"},
+        { "name":"Melody Mount Walk (east)", "color":"#AAAAAA", "x":883, "y":2745, "txt":"<p>A magically lit tunnel that runs west up to the cliffs on which the New Olamn barding college is situated. The tunnel contains a little-known portal between Waterdeep and the keep in Rassalantar. The tunnel continuously resounds with music due to an ongoing concert known as the Neverending String of Pearls that is performed by bardic students from New Olamn in a small alcove in the tunnel.</p>"},
+        { "name":"Kolat's Towers", "color":"#AAAAAA", "x":2683, "y":5287, "txt":"<p>Wizards' domiciles</p>", "ref":"S35"},
+        { "name":"Mirt's Mansion", "color":"#AAAAAA", "x":771, "y":4704, "txt":"<p>Villa. Mirt is a friend of Durnan (see The Yawning Portal). Both used magic to extend their lives.</p>", "ref":"C52"},
+        { "name":"Umberlee's Cache", "color":"#AAAAAA", "x":1588, "y":6106, "txt":"<p>Underground caverns completely flooded by sea water. All tithes and donations to Umberlee that are thrown in the bay are sucked into Umberlee's Cache. Guarded by Sea Wraiths that are trapped in Umberlee's Cache by Deepwater Beacon, an undersea lighthouse that prevents the Sea Wraiths from pouring into Waterdeep Harbor.</p>", "ref":""},
+        { "name":"Thayan Embassy", "color":"#AAAAAA", "x":1382, "y":2526, "txt":"<p>Waterdeep's wealth and role as Gateway to the North makes it an obvious choice for a Thayan enclave. Representatives of Thay established an embassy in Castle Ward overlooking the Market between the Sutherlane, Mendever Street, and Trader's Way in 1370 DR. As an embassy, the building is considered sovereign territory of Thay, exempt from the laws of Waterdeep. However, the Lords of Waterdeep flatly rejected the Three Laws of the Enclave, refusing to compromise Waterdeep's sovereignty or countenance the sale of slaves within the city. Because the Red Wizards are careful never to conduct business within the embassy proper, it is in no danger of losing its sovereign status.</p>", "ref":"C70"},
+        { "name":"The Dragon Tower", "color":"#AAAAAA", "x":842, "y":1501, "txt":"<p>Previous home of Aurinax the Gold Dragon, and Maaril the Archmage.</p>", "ref":"$30"},
+        { "name":"Brandarthall", "color":"#AAAAAA", "x":1374, "y":2134, "txt":"<p>Residents are Renaer 'Ren' Neverember (son of Dagult Neverember and Lady Brandarth, sage and book-collector, rake by night), Madrak Salibuck (Renaer calls him 'old hin', white-haired halfling butler, looked out for Renaer since childhood, was servant to Renaers mother) and Bramal Salibuck (Madrak's son, manages bulk of Neverember business as Renaers proxy).</p>", "ref":""},
+        { "name":"Talebran House", "color":"#AAAAAA", "x":2181, "y":5501, "txt":"<p>Lord Talebran's Waterdeep House</p>"},
+        { "name":"Fenerus Stormcastle's House", "color":"#AAAAAA", "x":2688, "y":4027, "txt":"<p>Fenerus Stormcastle was the founder of the Blood Hawk Posse, a gang of horse-riding brigands that, to this day, harries travelers on the road to Amphail. When he was drummed out of the gang after a botched raid, Fenerus 'retired' to Waterdeep and joined the Guild of Chandlers and Lamplighters. He supplements his income by spying for the city of Luskan and providing his contacts with information on the political climate in Waterdeep, as well as juicy bits of news overheard on his nightly rounds through the Trades Ward.</p>"},
+        { "name":"Ordalth House", "color":"#AAAAAA", "x":1723, "y":3452, "txt":"<p>Marble four-story villa owned by Renaer Neverember.</p>"},
+        { "name":"Madame Garah's Boarding House", "color":"#AAAAAA", "x":2661, "y":5237, "txt":"", "ref":"S30"},
+        { "name":"Fair Winds", "color":"#AAAAAA", "x":552, "y":2536, "txt":"<p>Villa. For rent.</p>"},
+        { "name":"Chazlauth Yarghorn Residence", "color":"#AAAAAA", "x":2129, "y":2405, "txt":"<p>A tall stone house with a tower on one corner. Chazlauth Yarghorn is a so called 'dragon expert' and friend of Naxene Drathkala, the resident mage of Golden Fields. An Illuskan mage who keeps the company of a silver dragon wyrmling named Irizzorl, that he keeps hidden in the tower, along with several cats that the dragon likes to terrorize. The tower is prone to constant racket.</p>"},
+        { "name":"Mhair's Tower", "color":"#AAAAAA", "x":2314, "y":3465, "txt":"<p>Domicile of the wizard Mhair Szeltune, leader of the Watchful Order of Magists and Protectors till 1372 DR.</p>", "ref":"T6"},
+        { "name":"Roarke House", "color":"#AAAAAA", "x":1580, "y":928, "txt":"<p>An imposing three-story bilding with a well-kept stone front. The interior has an atrium, and the tiles that cover the main floor are beautifully detailed in stars, moons, and pairs of eyes. Built by Volam Roarke, an exceedingly devout worshipper of Selune. Owned by Renaer Neverember and let out as a summer house, usually. It was used it as a gathering place for Renear's secret moonstars-like group, and several of Renaer's friends are intombed in a hall of doors hidden in the cellars below the property.</p>"},
+        { "name":"Thantilvur Investments", "color":"#AAAAAA", "x":2173, "y":2462, "txt":"<p>A former wealthy citizens private mansion, recently renovated, secret hideout for the Masked Lord Cozandur. Was destroyed durind the Open Lord's spell duel with two mages on the payroll of Braethan Cazondur.</p>"}
+      ]
+    }
+  ]
+}
+

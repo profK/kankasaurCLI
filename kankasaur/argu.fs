@@ -30,6 +30,7 @@ module ListSubCommands =
         | [<CliPrefix(CliPrefix.None)>] Campaigns
         | [<CliPrefix(CliPrefix.None)>] Maps of campaignID: string
         | [<CliPrefix(CliPrefix.None)>] MarkerGroups of campaignID: string * mapID: string
+        | [<CliPrefix(CliPrefix.None)>] MapMarkers of campaignID: string * mapID: string 
         
         interface IArgParserTemplate with
             member s.Usage =
@@ -38,6 +39,7 @@ module ListSubCommands =
                 | Campaigns -> "List all campaigns."
                 | Maps _ -> "List all maps for a specific campaign."
                 | MarkerGroups _ -> "List all marker groups for a map."
+                | MapMarkers _ -> "List all map markers for a specific map."
 module GetSubCommands     =       
     open System.IO
     open Kanka.NET
@@ -79,7 +81,7 @@ module GetSubCommands     =
         | [<CliPrefix(CliPrefix.None)>] Campaign of campaignID: string
         | [<CliPrefix(CliPrefix.None)>] Map of campaignID: string * mapID: string
         | [<CliPrefix(CliPrefix.None)>] MapMarker of 
-            campaignID:string * mapID: string * name:string * x:float * y:float
+            campaignID:string * mapID: string * groupID:string * name:string * x:int32 * y:int32
         | [<CliPrefix(CliPrefix.None)>] MarkerGroup of 
             campaignID:string * mapID: string * name:string 
         interface IArgParserTemplate with

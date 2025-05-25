@@ -1,10 +1,12 @@
 ﻿
 open System.IO
+open System.Text.Json
 open Argu
 open Kanka.NET
 open Kanka.NET.argu
 
 open Kanka.Net.Campaigns.Campaigns
+open kankasaur.JSONIO
 open kankasaur.MapMarkers
 open kankasaur.Maps
 open kankasaur.MarkerGroup
@@ -38,7 +40,57 @@ let GetOutputStream() =
     | Some stream -> stream
     | None -> System.Console.OpenStandardOutput()
     
-
+let PrintToStream (json:JsonElement) =
+    use writer = StreamWriter (GetOutputStream(), leaveOpen = true)
+    writer.AutoFlush <- true
+    formatJsonElement json
+    |> writer.WriteLine
+    
+let PrintCampaigns  (json:JsonElement) =
+    use writer = StreamWriter (GetOutputStream(), leaveOpen = true)
+    writer.AutoFlush <- true
+    json.GetProperty "data"
+    |> fun data ->
+        data.EnumerateArray()
+        |> Seq.iter (fun camp ->
+            let name = camp.GetProperty("name").GetString()
+            let id = camp.GetProperty("id").GetInt32()                        
+            writer.WriteLine $"{name} {id}"
+        )
+    //writer.Flush() 
+let PrintGroups (json:JsonElement) =
+    use writer = StreamWriter (GetOutputStream(), leaveOpen = true)
+    writer.AutoFlush <- true
+    json.GetProperty "data"
+    |> fun data ->
+        data.EnumerateArray()
+        |> Seq.iter (fun group ->
+            let name = group.GetProperty("name").GetString()
+            let id = group.GetProperty("id").GetInt32()                        
+            writer.WriteLine $"{name} {id}"
+        )
+    //writer.Flush()
+let PrintMaps (json:JsonElement) =
+    use writer = StreamWriter (GetOutputStream(), leaveOpen = true)
+    writer.AutoFlush <- true
+    json.EnumerateArray()
+    |> Seq.iter (fun group ->
+        let name = group.GetProperty("name").GetString()
+        let id = group.GetProperty("id").GetInt32()                        
+        writer.WriteLine $"{name} {id}"
+    )
+let PrintMarkers  (json:JsonElement) =
+    use writer = StreamWriter (GetOutputStream(), leaveOpen = true)
+    writer.AutoFlush <- true
+    let data = json.GetProperty("data")
+    data.EnumerateArray()
+    |> Seq.iter (fun group ->
+        let name = group.GetProperty("name").GetString()
+        let id = group.GetProperty("id").GetInt32()
+        writer.WriteLine $"{name} {id} "
+        )
+        
+    //writer.Flush() 
     
 [<EntryPoint>]
 let main argv =
@@ -61,10 +113,18 @@ let main argv =
     match results.GetSubCommand() with
     | List subCommand ->
         match subCommand.GetAllResults() with
-        | [ ListSubCommands.Campaigns ] -> ListCampaigns (GetOutputStream())
-        | [ ListSubCommands.Maps campaignID ] -> ListMaps campaignID (GetOutputStream())
+        | [ ListSubCommands.Campaigns ] ->
+            ListCampaigns ()
+            |> PrintCampaigns
+        | [ ListSubCommands.Maps campaignID ] ->
+            ListMaps campaignID
+            |> PrintMaps
         | [ ListSubCommands.MarkerGroups (campaignID, mapID)] ->
-            ListMarkerGroups campaignID mapID (GetOutputStream())
+            ListMarkerGroups campaignID mapID
+            |> PrintGroups
+        | [ ListSubCommands.MapMarkers (campaignID, mapID) ] ->
+            ListMapMarkers campaignID mapID 
+            |> PrintMarkers
         | _ -> printfn "Invalid list command."
     | Get subCommand ->   
         match subCommand.GetAllResults() with
@@ -72,15 +132,17 @@ let main argv =
         | [ GetSubCommands.Map  (campaignID ,  mapID) ] ->
                     printfn "Output stream: %A" (GetOutputStream())
                     GetMap campaignID mapID (GetOutputStream())
-        | [ GetSubCommands.MapMarkers (campaignID ,  mapID) ] -> GetMapMarkers campaignID mapID (GetOutputStream())
+        | [ GetSubCommands.MapMarkers (campaignID ,  mapID) ] -> 
+            //GetMapMarker campaignID mapID (GetOutputStream())
+            printfn "Unimplemented: GetMapMarkers"
         | _ -> printfn "Invalid list command."
         
     | Create subCommand ->
         match subCommand.GetAllResults() with
-        | [ CreateSubCommands.MapMarker (campaignID, mapID,name, x, y )] ->
-            CreateMapMarker campaignID mapID  name (x, y) 1 1 (GetOutputStream())
-        | [ CreateSubCommands.MarkerGroup (campaignID, mapID,name)] ->
-            CreateMarkerGroup campaignID mapID name  (GetOutputStream())
+        | [ CreateSubCommands.MapMarker (campaignID, mapID,groupID,name, x, y )] ->
+            NewMarkerJson campaignID mapID groupID name x y 1 1 
+            |> CreateMapMarker campaignID mapID
+            |> PrintToStream
         |_ -> printfn "Invalid create command."
     | Update -> printfn "Update command not implemented."
     | Delete -> printfn "Delete command not implemented."
