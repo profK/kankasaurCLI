@@ -1,0 +1,886 @@
+{
+  "name": "Temples",
+  "folder": "mGiWo4YwPhvukHMV",
+  "pages": [
+    {
+      "name": "Shrines of Nature",
+      "type": "text",
+      "text": {
+        "content": "<p>Park dedicated to Silvanus and Mielikki.</p>",
+        "format": 1
+      },
+      "_id": "kgRxGphKMt8Nfflw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Temple of Beauty",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Sune.</p>",
+        "format": 1
+      },
+      "_id": "eIolO7yQsXY23VrQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Tower of Luck",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Tymora.</p>",
+        "format": 1
+      },
+      "_id": "5KcgfVYL5c0IuorT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "House of Wonder",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Mystra. Most splendid temple dedicated to this deitie in all the world.</p>",
+        "format": 1
+      },
+      "_id": "Xm1iuJNdxSk6LC2i",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "House of Inspired Hands",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Gond.</p>",
+        "format": 1
+      },
+      "_id": "oKLWoodN6rluz6cm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "House of the Moon",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of SelÃ»ne. The tallest tower of any temple in the city.</p>",
+        "format": 1
+      },
+      "_id": "pezEc5qkLCm8u2y3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "House of Heroes",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Tempus. Largest temple in the city.</p>",
+        "format": 1
+      },
+      "_id": "VRJMOaTunCrBH6iZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Holyhands House",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of all deities. Also an inn.</p>",
+        "format": 1
+      },
+      "_id": "S8oM9ZucEmCvMvc6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Hospice of St. Laupsenn",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Ilmater.</p>",
+        "format": 1
+      },
+      "_id": "Hwy4mvw7jLgdVtyZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Spires of the Morning",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Lathander. Order of the Aster.</p>",
+        "format": 1
+      },
+      "_id": "UJzUsLIueEljFhN1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Font of Knowledge",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Oghma. Largest public library in the city.</p>",
+        "format": 1
+      },
+      "_id": "OqSwxTXTt627snjm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Halls of Justice",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Tyr. Holy Order of the Knights of Samular.</p>",
+        "format": 1
+      },
+      "_id": "Lp683ASlmQbTOHNW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Temple of the Seldarine",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of all elven deities.</p>",
+        "format": 1
+      },
+      "_id": "AXY5iaJXqNDlnNjE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "House of Two Hands",
+      "type": "text",
+      "text": {
+        "content": "<p>Monastery. Order of the Even-Handed.</p>",
+        "format": 1
+      },
+      "_id": "XN3gllzgFjmnqz6z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Zoarstar",
+      "type": "text",
+      "text": {
+        "content": "<p>Guildhall, temple. Scriveners', Scribes', &amp; Clerks' Guild.</p>",
+        "format": 1
+      },
+      "_id": "icW6Je827qSRk51y",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Plinth",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple open to any faith and employed by worshipers of gods who lack sizable congregations in the City of Splendors.</p>",
+        "format": 1
+      },
+      "_id": "eYKKikITt7L0irh7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Monastery of the Sun",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple. Order of the Sun Soul.</p>",
+        "format": 1
+      },
+      "_id": "dUON8dIkfPxQfPSF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Helm's Hall",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Helm.</p>",
+        "format": 1
+      },
+      "_id": "c2bHRLkZalJgA23s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Queenspire",
+      "type": "text",
+      "text": {
+        "content": "<p>Temple of Umberlee.</p>",
+        "format": 1
+      },
+      "_id": "yqp6n6MRet0ZHTYZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Sailor's Last Request",
+      "type": "text",
+      "text": {
+        "content": "<p>Former warehouse on the corner of Dock and Odd Streets that is now a chapel to Valkur, the god of sailors.</p>",
+        "format": 1
+      },
+      "_id": "WA5QN7QvZFdBG583",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Temple of Good Cheer",
+      "type": "text",
+      "text": {
+        "content": "<p>'Temple' of Lliira located on the second floor of a rundown row house.</p>",
+        "format": 1
+      },
+      "_id": "DPh517cJjNjWQW7D",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Starry Cradles orphanage",
+      "type": "text",
+      "text": {
+        "content": "<p>The Starry Cradles orphanage is a Dock Ward orphanage run by Matron Griselda Hoppletun, a halfling care-taker, and funded by the House of the Moon and the SelÃ»nite clergy thereof.</p>",
+        "format": 1
+      },
+      "_id": "5FbJtzstcnPP2gQH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mystra's Arms",
+      "type": "text",
+      "text": {
+        "content": "<p>Mystra's Arms Asylum is a ruined building. It is haunted and abandoned.</p>",
+        "format": 1
+      },
+      "_id": "7fBwwbZ4vfmkNufG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Dancing Haven",
+      "type": "text",
+      "text": {
+        "content": "<p>The Dancing Haven is a small tree grove, planted and grown within an abandoned, roofless building in the Northern Ward of Waterdeep (formerly the Phull Villa, now absorbed by House Ulbrinter). It is used as a base of operations for the followers of Eilistraee (drow goddess of song and moonlight) in the city.</p>",
+        "format": 1
+      },
+      "_id": "7LRPjnVIqB5Z6QE2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "exportSource": {
+      "world": "waterdeep_reference",
+      "system": "dnd5e",
+      "coreVersion": "12.331",
+      "systemVersion": "3.3.1"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1748223814054,
+    "modifiedTime": 1748269004712,
+    "lastModifiedBy": "y5Q1VLRf8bMm58VT"
+  }
+}

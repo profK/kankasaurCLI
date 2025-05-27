@@ -1,0 +1,4090 @@
+{
+  "name": "Inns & Taverns",
+  "folder": "mGiWo4YwPhvukHMV",
+  "pages": [
+    {
+      "name": "Sated Satyr",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "XKR6oqJ9cp9FxXyp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Wyvern's Rest",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn. Mercenaries.</p>",
+        "format": 1
+      },
+      "_id": "3AjqYJ0E17welfbO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Golden Harp Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "nOyDiB1wWdDH7AKg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Fiery Flagon",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "yfTYoTlG6YO7WAdM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Dacer's Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "SqeYkiwEBMymf6hV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Ship's Wheel",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "kkPeIBzSQCCDabmH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Pilgrim's Rest",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "h2to3cEjgsP2e77p",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Wandering Wemic",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "VVV6EaDpPiL1u1Yi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Maerghoun's Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "3giRb1dGGg3hBU0M",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Gounar's Tavern",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "jk0PSciOx13RdjRd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Broken Lance",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Mercenaries.</p>",
+        "format": 1
+      },
+      "_id": "c7DJKEOQhA876AoL",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Silken Slyph",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern/inn</p>",
+        "format": 1
+      },
+      "_id": "pjze5IwReYaT39t7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Raging Lion",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "pzp5ezSvg5cSeYnK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "A Maiden's Tears",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "rZfvkxfxCrgP2SBq",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Twilight Hunters",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "CpgVk2d7xISGnO3h",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Misty Beard",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "AJ5yE7akWDyqyRcq",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Galloping Minotaur",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "WZfXi5l1RMHLRg1t",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Greenglade Tower",
+      "type": "text",
+      "text": {
+        "content": "<p>Rooming house.</p>",
+        "format": 1
+      },
+      "_id": "6T9tQDN6L2HM2AEN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Grinning Lion",
+      "type": "text",
+      "text": {
+        "content": "<p>Raucous tavern adorned with (faked) battle trophies from all over Faerun. Drugs.</p>",
+        "format": 1
+      },
+      "_id": "8bM3AP5Yxu0j52mT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Silent Shield",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn/storage. The Silent Shield is named for its secrecy. It offers secure, private storage of items or folk who are trying to hide, including adventurers or their diseased, sick, wounded, or dead companions. (Corpses are kept on ice. The others are tended carefully by the proprietors.)</p>",
+        "format": 1
+      },
+      "_id": "nS6cxr44VR6jKp2u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Singing Sword",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "b3CbEgO5oV5RPzLX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Pampered Traveler",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "YNBvV51ONPHvMIsn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mighty Manticore Tavern",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "W2Zl4OJ2AnzkruHk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Crawling Spider",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "Odm1c9DuwAnLH1hW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Dragon's Head Tavern",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "am7GCLULEj2ccB57",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Asp's Strike",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "YHiB1J5mI9gvaBLZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Elfstone Tavern",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "M5LsvLkoh1zqRPZ1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Blue Jack",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "CJr0EMTP91oQ7Khx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Jade Jug",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "Pa11eEcf3tzMmYJr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Yawning Portal",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn. Built in 1306 DR on the ruins of Halaster Blackcloak's old tower, the Yawning Portal gained most of its renown for being the primary open route to the Undermountain. The Portal's innkeeper, Durnan, is a former adventurer of great power and renown.</p>",
+        "format": 1
+      },
+      "_id": "LMg1vzs5d0Lv2hnX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Red-eyed Owl",
+      "type": "text",
+      "text": {
+        "content": "<p>This is the closest thing Waterdeep has to a comfortable, unimpressive, welcoming gathering place for the neighborhood. It is the kind of place where friends will come in and hail each other across the room, the food and drink will be pleasant, if unspectacular, and you'll be allowed to sit in peace and while an evening away over a tankard or two. Food is a heavily spiced sea-food stew (called coast chowder) or roast oxen done with a sweet-and-sour sauce and a dash o brandy to flame the outside as it's brought, blazing, to your table. It is a rambling old wooden building that looks as if it's about to fall into the street. But it has looked that way for at least 40 winters, patrons assured me, and hasn't fallen down yet.</p>",
+        "format": 1
+      },
+      "_id": "zUlfZra3uydx6lPP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Sleepy Slyph",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "wh4bHBu9UKQrbjQ4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Quaffing Quaggoth",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. A favorite among sailors, merchants, and young nobles, this dwarven owned and operated establishment is known for its own specialty brew â€“ the Quaggoth, a thick house-brewed stout mixed with a shot of a house secret liquor.</p>",
+        "format": 1
+      },
+      "_id": "sieEae7Q7p2pevgG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Sailor's Own",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "neaxrFp6UUumxCJt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Tavern of the Flagon Dragon",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p><p>Three Stories high, stone dragons at the base of the walls are all gouting fire, two dragon helmed guards at the door. Caters more to the less-than-noble class.</p>",
+        "format": 1
+      },
+      "_id": "khffThYg41rri2jy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Sapphire House",
+      "type": "text",
+      "text": {
+        "content": "<p>Expensive rooming house on Swords Street. The inn is a five-story building.</p>",
+        "format": 1
+      },
+      "_id": "TIXxl3ZB2ouESuQp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Azuth's Mug",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "9M98thz8M70YGecq",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Wyrmbones Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "iw4Gkmt5z1ws7gsU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Underdark",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "0rtOzK5WDENSsvck",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Inn of the Dripping Dagger",
+      "type": "text",
+      "text": {
+        "content": "<p>The walls of this old inn are fieldstone at street level and timber for three upper floors. The owner of the inn, a former adventurer named Tessele Swiftwater, employs an extensive staff of waitresses, kitchen staff, chambermaids, hostlers and a minotaur bouncer named Thoat. The food is tasty and plentiful. Notable are panfried lout (a local small brown fish) and baked shalass (a local trout-like fish). Notable drinks include Moonshae almond brandy, elverquisst (the exotic drink of many elves), and a famed Waterdeep wine, zzar, which is fiery orange with a distinctive almond scent.</p>",
+        "format": 1
+      },
+      "_id": "SP0vJJNaQwWJXPiB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Gondalim's",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "1RNf94SsGzc2MwLT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Maelstrom's Notch",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "v40IpZmMfcSKr8W0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Unicorn's Horn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "tJyj8YvjEVEMhN9W",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Gentle Rest",
+      "type": "text",
+      "text": {
+        "content": "<p>The Gentle Rest is an old, large, comfortable inn where it bends to meet Waterdeep Way. The inn has five floors and a stable located on an alley behind the inn. The current proprietor is Marlak Buckman, a jovial, stout, middle-aged man of average height. He greets guests warmly, saying 'Welcome to the Gentle Rest. May I fetch you a cup of wine or a tankard of ale? Or perhaps you seek lodging?' The Gentle Rest has smooth, wooden floors and walls with typical furnishings for an inn. The shortest way to the stables is the back door of the Inn. If you use the front door, you must circle (clockwise) around a long block of buildings to reach the Gentle Rest stables. That path would take a couple of minutes. The Gentle Rest stables are sizeable and a cobblestone apron provides an area for rigging wagons and carriages. Inside are typical horse stalls and a hay loft. Towards the back is space for wagon and cart storage.</p>",
+        "format": 1
+      },
+      "_id": "ZUxRT3PEUhfwGRLP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Bowels of the Earth",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Mercenaries.</p>",
+        "format": 1
+      },
+      "_id": "5J36aKmom7zy8RQF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Felzoun's Folly",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p><p>Felzoun's Folly has been around for a very long time, and not everything that goes on there is believed to be legal.</p>",
+        "format": 1
+      },
+      "_id": "9yqid8jiPF8EIOfj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Gray Serpent",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "adc1vbrBOw1D02bH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Singed Bolt",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "ITe78jfR4QBhNBn0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Gray Griffon",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "hk5HkE1kiC9PhEHa",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Selune's Smile",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "FcITsAVQA6nmeLxn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Rearing Hippocampus",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "qpaTBWGcwF2yKXYI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Splintered Stair",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "frcFbJQRIWFawgvk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Blackstar Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>This dignified, even haughty inn is like a fortress on the outside, with barred windows, stone walls, and a slate roof. Its lobby has two armed guards, and the four hostlers in the locked stables are also armed. Fees are high (typically 1 gp per head per night, plus 1 sp per animal stabled), but in return, guests get almost soundproof rooms (a rarity). Each room has a hip-bath, a double bed, water and wine provided for drinking and various pamphlets and chapbooks provided for light reading. Each room also has its own fireplace, albeit with a miserly supply of firewood, and the patrons tend to keep to themselves. A good place to get a long soundsleep. Asiyra Boldwinter is the proprietress of this inn. Her manner is one of uppercrust, noble dignity.</p>",
+        "format": 1
+      },
+      "_id": "Lx7A9YpmlqovmTQ6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Ship's Prow",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "OgWaZramoqXjjOdg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Thirsty Sailor",
+      "type": "text",
+      "text": {
+        "content": "<p>This decrepit old tavern has boarded-up windows and careless repairs. The interior is smoky and the repulsive odor of tar, stale beer, sour wine, sweat, and worse fills the air. The patrons divide their time here by drinking, singing bawdy songs (off-key) and brawling. No female staff or patrons grace the Thirsty Sailor, not even female sailors or dockworkers.</p>",
+        "format": 1
+      },
+      "_id": "yxUkSIN031imSXJp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Thirsty Throat",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Mercenaries.</p><p>This ramshackle assembly of wood amazes all by not fallen down.</p>",
+        "format": 1
+      },
+      "_id": "b2qhJ3PcoGDUEwqI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Warm Beds",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn.</p><p>This establishment delivers just what it promises - and little more. Each bed is warmed by three heated stones placed in it before the renter retires. There is hot water available for washing, heated by the bucket beside the same giant hearth that warms the bedstones. Rooms with one to four single beds are available. This inn has no stabling (most patrons sell their mounts or stable them at a caravan stable in South Ward), and provides no food of any kind. Quiet is expected after dark, but as long as there's no noise above low-pitched voices, renters can use their rooms for whatever purpose they please (such as conferences or meetings).</p>",
+        "format": 1
+      },
+      "_id": "Kr1p793WDP64ikbm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Bloody Fist",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Members of the Bull Elk Tribe can usually be found drinking here.</p>",
+        "format": 1
+      },
+      "_id": "3egFaXI5TbmzPa5L",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Sleeping Wench",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "A2lk81HHEtsCOQ2H",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Blue Mermaid",
+      "type": "text",
+      "text": {
+        "content": "<p>The Blue Mermaid tavern is a respectable establishment with decent food at a good price whose clientele is normally sailors and dockworkers looking for a quiet place to eat. The manager is a man named Stevian.</p>",
+        "format": 1
+      },
+      "_id": "RDTUV1LlQcNaffPo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Hanged Man",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "kDUs5EB3Kk7Rujk7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Sleeping Snake",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Members of the Black Boar Tribe can usually be found drinking here.</p>",
+        "format": 1
+      },
+      "_id": "kxDU9PsvH7XAElKH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Shipmasters' Hall",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "JtTweXLWTL2sK5n5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Pickled Fisherman",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "XySN7NnSEYeJ9ano",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Soaring Pegasus",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "Vs9m9Lsz9IvIVZVU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Angry Coxswain",
+      "type": "text",
+      "text": {
+        "content": "<p>The tavern contains a one-way portal connecting with a prison cell in the slave market in the Mulhorandi city of Skuld.</p>",
+        "format": 1
+      },
+      "_id": "IKO6EmJUaiq0lAjP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Sailor's Corner",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "dyvjTkDNDTb6fcis",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Darth's Dolphyntyde",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "WW8MwzsD05TVsx1L",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Swords' Rest",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Mercenaries.</p>",
+        "format": 1
+      },
+      "_id": "C60xbFfLLWjeZhXl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Midnight Sun",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "WbjcVXMonHtS7Ypd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Full Cup",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Food.</p>",
+        "format": 1
+      },
+      "_id": "i28XHWNRfPxYGkQW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Spouting Fish",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "afNwmgILgie9SMHt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Red Gauntlet",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "m0ZEUAvxh6nLiOy0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Safehaven Inn",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn</p>",
+        "format": 1
+      },
+      "_id": "R4LuJQcSQw7b8eh0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Beer Golem",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern</p>",
+        "format": 1
+      },
+      "_id": "xDfelGXOjFL2gtVu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Tymora's Blessing",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Mercenaries.</p>",
+        "format": 1
+      },
+      "_id": "5VaJieMkZ8lcUVoN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Endshift Tavern",
+      "type": "text",
+      "text": {
+        "content": "<p>A tavern in the Field Ward at the corner of Endshift Street and the Breezeway. It's frequented by off-duty members of the city guard.</p>",
+        "format": 1
+      },
+      "_id": "K8g2eSulX6mLbAFv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Friendly Flounder",
+      "type": "text",
+      "text": {
+        "content": "<p>The Friendly Flounder is an unspectacular fare with a modest structure that keep it unknown to most visitors of Waterdeep, but it is a real find for those that like to not be bothered while eating and drinking.</p>",
+        "format": 1
+      },
+      "_id": "CE8t25c3JfHEJh8V",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Frewn's Brews",
+      "type": "text",
+      "text": {
+        "content": "<p>A relatively new tavern with shoddy workmanship. The owner covets the location of Trollskull Manor.</p>",
+        "format": 1
+      },
+      "_id": "2nZpnU3BKqwqRPb0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Dancing Dagger",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn. A merry and lively Inn boasting a resident bard, Trilian Arkalyn, and known as a safe meeting place for off the books 'businesss'.</p>",
+        "format": 1
+      },
+      "_id": "hMSgHKp7q2Xu8c0u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Empty Keg",
+      "type": "text",
+      "text": {
+        "content": "<p>The Empty Keg is a rowdy beer-hall. Later at night, it sees visits from workers from Mother Salinka's next door to reinvigorate business there.</p>",
+        "format": 1
+      },
+      "_id": "I7Bo0vSFwIwPfJHP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Tarth's Towers",
+      "type": "text",
+      "text": {
+        "content": "<p>Luxury Inn</p>",
+        "format": 1
+      },
+      "_id": "fJpGMrxKtXR1fBHB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Oblarth's Gryphon",
+      "type": "text",
+      "text": {
+        "content": "<p>Luxury Inn</p>",
+        "format": 1
+      },
+      "_id": "gNhgD8sUFJf99f9M",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Dauntlynâ€™s Doors",
+      "type": "text",
+      "text": {
+        "content": "<p>Luxury Inn</p>",
+        "format": 1
+      },
+      "_id": "VUkdtTrYxUfSQKL6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Bard inn",
+      "type": "text",
+      "text": {
+        "content": "<p></p><p>A cozy inn owned by a family of past adventurers, it appears to have been fixed up recently. Most of its visitors are sailors, but it has been known to house meetings between gangs in order to keep the peace. In the basement is a hidden underground fighting ring.</p>",
+        "format": 1
+      },
+      "_id": "UQQ338tfvJ6xvp5D",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Tao Wall Street's Pub",
+      "type": "text",
+      "text": {
+        "content": "<p>The lendary warrior Taozrens once lived within these walls in the Wall Street, near the River Gate. He and his family, with a total of 6 children, shared stories of his greatness for years near the hearth. Now, years after his death in the Dungeon of the Mad Mage, a new pub is founded in the place. The innkeeper is Elmira, an older woman with great kitchen skills and even greater stories to tell. Every third day of each month, the stage is open to all and adventurers from Faerun come to share their's stories, just like Taozrens once did with his family.</p>",
+        "format": 1
+      },
+      "_id": "vpOZaMteIyJaRGbt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Sleeping Dog",
+      "type": "text",
+      "text": {
+        "content": "<p>The Sleeping Dog is a quiet boarding house run by a sweet old halfling woman named Terricott Calumn, Terri to her friends and guests. Rooms are reasonably priced and clean. She gets a great deal of her business from The Yawning Portal and is quite friendly with Bonny (a doppelganger barmaid at the Portal). She does not tolerate roughhousing or shenanigans in her establishment and employs a burly dwarf named Grady (a retired adventurer with the stats of a veteran) who does the heavy lifting around the place and ejects any customers who don't comply with the rules. He is very much in love with Terricott, though he would never admit it and claims he is far too old for such nonsense. Terricott loves him in return, just not in the same way.</p>",
+        "format": 1
+      },
+      "_id": "38c2hawrAx5iGJs2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Trollskull Manor",
+      "type": "text",
+      "text": {
+        "content": "<p>Inn. An old run down Inn that hasn't been open for some years now following an explosion that killed a number of patrons and the bartender</p>",
+        "format": 1
+      },
+      "_id": "gUWTzKmyHUDOA8ds",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Knight N' Shadow",
+      "type": "text",
+      "text": {
+        "content": "<p>The Knight N' Shadow is a two story tavern. The tavern is shabby and populated by criminals and others who wish to hide their business. The two burly half-orc bouncers must be either bribed or intimidated before allowing access to the lower level of the tavern. A rickety set of stairs through a sloped tunnel leads to the lower level of the tavern. From here one can enter to Downshadow via rope lift manned by a spellscarred half-orc. Tip well for smooth trip.</p>",
+        "format": 1
+      },
+      "_id": "NNHedZHanQMO1r3i",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Storm's Front",
+      "type": "text",
+      "text": {
+        "content": "<p>A popular gathering place for the young and wealthy.</p>",
+        "format": 1
+      },
+      "_id": "QHck6f62zxWACMLl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Demondraught",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern.</p>",
+        "format": 1
+      },
+      "_id": "3pXjiR4DiwsbXcRz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Slaked Sylph",
+      "type": "text",
+      "text": {
+        "content": "<p>Tavern. Patron's are a wide array of Waterdhavians, who enjoy dark ale, night black loaves, and shelves with broadsheets.</p>",
+        "format": 1
+      },
+      "_id": "cuqPWu6bUh6zBJMs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mermaid on a Dolphin",
+      "type": "text",
+      "text": {
+        "content": "<p>An expensive restaurant.</p>",
+        "format": 1
+      },
+      "_id": "OOaERkYLHTnjQnQy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The House of Purple Silks",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Lodging. Food.</p>",
+        "format": 1
+      },
+      "_id": "ybwakblCgCg1SW2h",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Gentle Mermaid",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Gambling House. Tavern.</p><p>Boasting the largest and richest gambling rooms in all of Waterdeep, perhaps all of Faerun, this huge, balconied and turreted, 4-story stone structure, occupies the entire interior of the city block on which it is located. The only public entrance is in a courtyard at the end of a 40' x 20' corridor with 15' walls. It reeks of wealth, if not sophistication and taste. The interior is lushly decorated with carpets and tapestries on nearly every surface. In addition to being magically lit, the interior of the building is also magically heated and cooled, providing a welcome comfort no matter the season. Weapons are not permitted inside the Gentle Mermaid, so guests will be expected to check any they are carrying with the coatroom attendant, though guests are not searched for or even asked to remove any but openly worn weapons. The Mermaid is confident in their security. Any person not wearing ï¬ne clothes is turned away per the establishmentâ€™s dress code. Many come here to lose money at the gambling tables--or to spend it to enjoy the company of the charming &amp; beautiful escorts, of all genders, on the Mermaid Staff.</p>",
+        "format": 1
+      },
+      "_id": "aM3Bb3hFTcCrMKqY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Silavene's",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "AJJDbocWsBNgdMsC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Smiling Siren",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "85GxakxWcIO8dBfJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mother Tathlorn's House of Pleasure",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Entertainers.</p>",
+        "format": 1
+      },
+      "_id": "nh6fBrcaJr21tebi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Jhural's Dance",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "mWH6FRzHMSVh8FuZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Blushing Nymph",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p><p>The long stair links the oubliette of the Blushing Nymph festhall with Undermountain's first level.</p>",
+        "format": 1
+      },
+      "_id": "4PSVK3bK8STUFIe3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Golden Horn Gambling House",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Entertainers. Drugs.</p>",
+        "format": 1
+      },
+      "_id": "WkLDgjYW0fPOhQfe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Three Pearls Nightclub",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "WXJzEn2IiW7KTPH4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Hanging Lantern",
+      "type": "text",
+      "text": {
+        "content": "<p>Festnall</p>",
+        "format": 1
+      },
+      "_id": "hIjk9XzmXta7GJaU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Purple Palace",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "OkagEXMGi8uHnWHz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Mermaid's Arms",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "epUMQlwoB2Dh87O0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Blushing Mermaid",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p><p>A dry well in the cellar has a passage to the Port of Shadows in Undermountain.</p>",
+        "format": 1
+      },
+      "_id": "Jj3OF2A66xBKpChU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Copper Cup",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall</p>",
+        "format": 1
+      },
+      "_id": "PJ1EcZrJV6izuh67",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Skewered Dragon",
+      "type": "text",
+      "text": {
+        "content": "<p>The Skewered Dragon faces an alley that runs between Net Street and Fillet Lane in the Dock Ward, not far from the Old Xoblob Shop. The Skewered Dragon looks like a ruin. Both of its front-facing windows are smashed, and a ship's anchor is lodged in the roof.</p>",
+        "format": 1
+      },
+      "_id": "fWoUqZgvTm1DNxEg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Jade Dancer",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Tavern, dance hall, and inn.</p>",
+        "format": 1
+      },
+      "_id": "prh0KIrdFZ0qSI88",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Smiling Succubus",
+      "type": "text",
+      "text": {
+        "content": "<p>Festhall. Not exactly the pride of Wharf Street, but one of its most popular destinations.</p>",
+        "format": 1
+      },
+      "_id": "NzRHNzVC6mjziSpn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mother Salinka's House of Pleasures",
+      "type": "text",
+      "text": {
+        "content": "<p>This is a dingy low-coin festhall owned by halflings and frequented by those who are there for a 'brief visit', or can't afford or are turned away from the Yawning Portal.</p>",
+        "format": 1
+      },
+      "_id": "VWmlgUUC2vXxpNut",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Pink Flumph",
+      "type": "text",
+      "text": {
+        "content": "<p>Theater</p>",
+        "format": 1
+      },
+      "_id": "IpGqs96kNtu4Qqkh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Seven Masks Theater",
+      "type": "text",
+      "text": {
+        "content": "<p>The theater caters to a lower-class clientele, and ship captains and sailors are admitted for free. The owner of the theater is a burly and jovial Shou man with a braided goatee named Rongquan Mystere.</p>",
+        "format": 1
+      },
+      "_id": "D3M4XLGMsyTJqlud",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "exportSource": {
+      "world": "waterdeep_reference",
+      "system": "dnd5e",
+      "coreVersion": "12.331",
+      "systemVersion": "3.3.1"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1748223814054,
+    "modifiedTime": 1748269004712,
+    "lastModifiedBy": "y5Q1VLRf8bMm58VT"
+  }
+}

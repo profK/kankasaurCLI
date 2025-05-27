@@ -1,0 +1,850 @@
+{
+  "name": "Misc",
+  "folder": "mGiWo4YwPhvukHMV",
+  "pages": [
+    {
+      "name": "Naingate",
+      "type": "text",
+      "text": {
+        "content": "<p>Wizard's domicile.</p>",
+        "format": 1
+      },
+      "_id": "cCUNvqI48mobo8rl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Tessalar's Tower",
+      "type": "text",
+      "text": {
+        "content": "<p>Wizard's domicile.</p>",
+        "format": 1
+      },
+      "_id": "aZZaflryBcbd4otC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Furjur the Flippant's residence",
+      "type": "text",
+      "text": {
+        "content": "<p>House.</p>",
+        "format": 1
+      },
+      "_id": "pOZNDtG1oFOcp7gF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Hlethvagi Anteos's residence",
+      "type": "text",
+      "text": {
+        "content": "<p>Villa.</p>",
+        "format": 1
+      },
+      "_id": "GoN3f5tkX0krv2Ye",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Stagdown Manse",
+      "type": "text",
+      "text": {
+        "content": "<p>Villa.</p>",
+        "format": 1
+      },
+      "_id": "6dCExLntChBSRDsK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Myrna Cassalanter's residence",
+      "type": "text",
+      "text": {
+        "content": "<p>House</p>",
+        "format": 1
+      },
+      "_id": "FPkq3Miz5LYrWzra",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Melody Mount Walk (west)",
+      "type": "text",
+      "text": {
+        "content": "<p>A magically lit tunnel that runs west up to the cliffs on which the New Olamn barding college is situated. The tunnel contains a little-known portal between Waterdeep and the keep in Rassalantar. The tunnel continuously resounds with music due to an ongoing concert known as the Neverending String of Pearls that is performed by bardic students from New Olamn in a small alcove in the tunnel.</p>",
+        "format": 1
+      },
+      "_id": "3WRCxmrjIIiEAWL7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Melody Mount Walk (east)",
+      "type": "text",
+      "text": {
+        "content": "<p>A magically lit tunnel that runs west up to the cliffs on which the New Olamn barding college is situated. The tunnel contains a little-known portal between Waterdeep and the keep in Rassalantar. The tunnel continuously resounds with music due to an ongoing concert known as the Neverending String of Pearls that is performed by bardic students from New Olamn in a small alcove in the tunnel.</p>",
+        "format": 1
+      },
+      "_id": "0ITrgQ5iutkzqQeP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Kolat's Towers",
+      "type": "text",
+      "text": {
+        "content": "<p>Wizards' domiciles</p>",
+        "format": 1
+      },
+      "_id": "PuMUQFkkgkDYUItZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mirt's Mansion",
+      "type": "text",
+      "text": {
+        "content": "<p>Villa. Mirt is a friend of Durnan (see The Yawning Portal). Both used magic to extend their lives.</p>",
+        "format": 1
+      },
+      "_id": "hzpyIfSmACD8HGVu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Umberlee's Cache",
+      "type": "text",
+      "text": {
+        "content": "<p>Underground caverns completely flooded by sea water. All tithes and donations to Umberlee that are thrown in the bay are sucked into Umberlee's Cache. Guarded by Sea Wraiths that are trapped in Umberlee's Cache by Deepwater Beacon, an undersea lighthouse that prevents the Sea Wraiths from pouring into Waterdeep Harbor.</p>",
+        "format": 1
+      },
+      "_id": "0ZBeGLaOav8WHZAf",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Thayan Embassy",
+      "type": "text",
+      "text": {
+        "content": "<p>Waterdeep's wealth and role as Gateway to the North makes it an obvious choice for a Thayan enclave. Representatives of Thay established an embassy in Castle Ward overlooking the Market between the Sutherlane, Mendever Street, and Trader's Way in 1370 DR. As an embassy, the building is considered sovereign territory of Thay, exempt from the laws of Waterdeep. However, the Lords of Waterdeep flatly rejected the Three Laws of the Enclave, refusing to compromise Waterdeep's sovereignty or countenance the sale of slaves within the city. Because the Red Wizards are careful never to conduct business within the embassy proper, it is in no danger of losing its sovereign status.</p>",
+        "format": 1
+      },
+      "_id": "IBPq22YMOBOEspNa",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Dragon Tower",
+      "type": "text",
+      "text": {
+        "content": "<p>Previous home of Aurinax the Gold Dragon, and Maaril the Archmage.</p>",
+        "format": 1
+      },
+      "_id": "LAnuuLs9F55qmHgM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Brandarthall",
+      "type": "text",
+      "text": {
+        "content": "<p>Residents are Renaer 'Ren' Neverember (son of Dagult Neverember and Lady Brandarth, sage and book-collector, rake by night), Madrak Salibuck (Renaer calls him 'old hin', white-haired halfling butler, looked out for Renaer since childhood, was servant to Renaers mother) and Bramal Salibuck (Madrak's son, manages bulk of Neverember business as Renaers proxy).</p>",
+        "format": 1
+      },
+      "_id": "2j67mwcRT5z6lgsD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Talebran House",
+      "type": "text",
+      "text": {
+        "content": "<p>Lord Talebran's Waterdeep House</p>",
+        "format": 1
+      },
+      "_id": "XZY85aDZuhcbjO3f",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Fenerus Stormcastle's House",
+      "type": "text",
+      "text": {
+        "content": "<p>Fenerus Stormcastle was the founder of the Blood Hawk Posse, a gang of horse-riding brigands that, to this day, harries travelers on the road to Amphail. When he was drummed out of the gang after a botched raid, Fenerus 'retired' to Waterdeep and joined the Guild of Chandlers and Lamplighters. He supplements his income by spying for the city of Luskan and providing his contacts with information on the political climate in Waterdeep, as well as juicy bits of news overheard on his nightly rounds through the Trades Ward.</p>",
+        "format": 1
+      },
+      "_id": "VQfkBTW7r5Tj3Qxd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Ordalth House",
+      "type": "text",
+      "text": {
+        "content": "<p>Marble four-story villa owned by Renaer Neverember.</p>",
+        "format": 1
+      },
+      "_id": "uDbToRAgJZAS5x6k",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Madame Garah's Boarding House",
+      "type": "text",
+      "text": {
+        "content": "",
+        "format": 1
+      },
+      "_id": "czH0MUJEjfU5INHY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Fair Winds",
+      "type": "text",
+      "text": {
+        "content": "<p>Villa. For rent.</p>",
+        "format": 1
+      },
+      "_id": "jqE0HbTUcQK0tO6Z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Chazlauth Yarghorn Residence",
+      "type": "text",
+      "text": {
+        "content": "<p>A tall stone house with a tower on one corner. Chazlauth Yarghorn is a so called 'dragon expert' and friend of Naxene Drathkala, the resident mage of Golden Fields. An Illuskan mage who keeps the company of a silver dragon wyrmling named Irizzorl, that he keeps hidden in the tower, along with several cats that the dragon likes to terrorize. The tower is prone to constant racket.</p>",
+        "format": 1
+      },
+      "_id": "TgYRIwm2ZewsqANY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mhair's Tower",
+      "type": "text",
+      "text": {
+        "content": "<p>Domicile of the wizard Mhair Szeltune, leader of the Watchful Order of Magists and Protectors till 1372 DR.</p>",
+        "format": 1
+      },
+      "_id": "ie1L1eN6b8CnOnTc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Roarke House",
+      "type": "text",
+      "text": {
+        "content": "<p>An imposing three-story bilding with a well-kept stone front. The interior has an atrium, and the tiles that cover the main floor are beautifully detailed in stars, moons, and pairs of eyes. Built by Volam Roarke, an exceedingly devout worshipper of Selune. Owned by Renaer Neverember and let out as a summer house, usually. It was used it as a gathering place for Renear's secret moonstars-like group, and several of Renaer's friends are intombed in a hall of doors hidden in the cellars below the property.</p>",
+        "format": 1
+      },
+      "_id": "lFD6Sfq038Ylz7Z0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Thantilvur Investments",
+      "type": "text",
+      "text": {
+        "content": "<p>A former wealthy citizens private mansion, recently renovated, secret hideout for the Masked Lord Cozandur. Was destroyed durind the Open Lord's spell duel with two mages on the payroll of Braethan Cazondur.</p>",
+        "format": 1
+      },
+      "_id": "uUEzoghA8duunI9E",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "APB4IGOWT0QJhLUQ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "exportSource": {
+      "world": "waterdeep_reference",
+      "system": "dnd5e",
+      "coreVersion": "12.331",
+      "systemVersion": "3.3.1"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1748223814054,
+    "modifiedTime": 1748269004712,
+    "lastModifiedBy": "y5Q1VLRf8bMm58VT"
+  }
+}
