@@ -3,145 +3,141 @@
 open System.Drawing
 open System.IO
 open System.Text.Json
+open JournalToLoader.JsonFormatting
 
-type MarkerRec = {
-    name : string
-    id : string
-    pageId : string
-    color : Color
-    iconPath : string
-    x : int
-    y : int    
+
+type PinRec= {
+    entryId: string
+    pageId: string
+    x: float
+    y: float
+    imgPath: string option
 }
 
-type PageRec = {
-    name : string
-    pageId : string
-    markers : MarkerRec list 
-}
 
-let mutable pages = Map.empty
 
-let DoPage (filePath: string) =
-    let jsonContent = File.ReadAllText filePath
-    let jsonDocument = JsonDocument.Parse(jsonContent)
-    let rootElement = jsonDocument.RootElement
-    let name = rootElement.GetProperty("name").GetString()
-    let pageId = rootElement.GetProperty("_id").GetString()
-    pages <- pages.Add(pageId, { name = name; pageId = pageId; markers = [] })
-    ()
-
-let DoMarkers (filePath: string) =
-    let jsonContent = File.ReadAllText filePath
-    let jsonDocument = JsonDocument.Parse(jsonContent)
-    let rootElement = jsonDocument.RootElement
-    let pageId = rootElement.GetProperty("page_id").GetString()
-    
-    if pages.ContainsKey(pageId) then
-        let name = rootElement.GetProperty("name").GetString()
-        let id = rootElement.GetProperty("_id").GetString()
-        let color = Color.FromArgb(
-            rootElement.GetProperty("color").GetInt32())
-        let iconPath = rootElement.GetProperty("icon").GetString()
-        let x = rootElement.GetProperty("x").GetInt32()
-        let y = rootElement.GetProperty("y").GetInt32()
-
-        let markerRec = {
-            name = name
-            id = id
+let ScanPins(filepath:string) =
+    use reader = new StreamReader(filepath)
+    let json = reader.ReadToEnd()
+    let jsonDoc = JsonDocument.Parse(json)
+    let root = jsonDoc.RootElement
+    root.GetProperty("notes").EnumerateArray()
+    |> Seq.fold (fun (map:Map<string,PinRec>) note ->
+        let entryId = note.GetProperty("entryId").GetString()
+        let pageId = note.GetProperty("pageId").GetString()
+        let x = note.GetProperty("x").GetDouble()
+        let y = note.GetProperty("y").GetDouble()
+        let entry = {
+            entryId = entryId
             pageId = pageId
-            color = color
-            iconPath = iconPath
-            x = x
-            y = y
+            x = x; y = y
+            imgPath = 
+               note.TryGetProperty("texture")
+               |> function 
+                  | tple when (fst tple) = true ->
+                    (snd tple).TryGetProperty("path")
+                     |> function 
+                          | path when (fst path)= true->
+                              Some ((snd path).GetString())
+                          | _ -> None
+                  | _ ->None
+               
+                  
+                   
+               
+                        
         }
-        pages <- pages.Add(pageId,
-                           { pages.[pageId] with
-                              markers = pages.[pageId].markers @ [markerRec] })
-        ()
-
-        let updatedPage =
-            { pages.[pageId] with markers = markerRec :: pages.[pageId].markers }
-        
-        pages <- pages.Add(pageId, updatedPage)
-    else
-        printfn "Page ID %s not found for markers." pageId
+        map.Add(pageId, entry)
+    ) Map.empty
  
-type OutputMarker = {
-    name: string
-    color: string
-    txt: string
-    x: int
-    y: int
-}
-type OutputGroup = {
-    name: string
-    markers: OutputMarker list
-}
-type OutputRec = {
-     groups : OutputGroup  list
-}
+let DoPages (pages:JsonElement) (pinMap: Map<string,PinRec>) =
+    pages.EnumerateArray()
+    |> Seq.map(fun pageElement ->
+                  let pinRec =
+                      pinMap.TryFind(pageElement.GetProperty("_id").GetString())
+                      |> function
+                        | Some pin -> pin
+                        |None -> failwith $"""Pin not found for page {pageElement.GetProperty("id").GetString()}"""
+                  let name = pageElement.GetProperty("name").GetString()
+                  let id = pageElement.GetProperty("_id").GetString()
+                  let pageId = pinRec.pageId
+                  let iconPath =
+                      match pinRec.imgPath with
+                        | Some path -> path
+                        | None -> ""
+                  let x = pinRec.x
+                  let y = pinRec.y    
+                  {
+                    name = name
+                    id = id
+                    pageId = pageId
+                    //color = color.
+                    iconPath = iconPath
+                    x = x
+                    y = y
+                  }
+        )
+let DoGroups pinMap (markers:JsonElement)=
+    markers.EnumerateArray()
+    |> Seq.map(fun groupElement ->
+            {
+              name = groupElement.GetProperty("name").GetString()
+              pages = DoPages (
+                        groupElement.GetProperty("pages")) pinMap
+            }
+        )
 
-let GenerateLoaderData (outputFile: string) (pages: Map<string, PageRec>) =
-        // "name":"Seaseyes Tower", "color":"#58ACFA", "x":338, "y":2172,
-        // "txt":"<p>City building</p>", "ref":"$71"
-        use writer = new StreamWriter(outputFile)
-        //make the JSON template
-        let outputData = 
-            pages
-            |> Map.toList
-            |> List.map (fun (_, page) ->
-                {
-                    groups = 
-                        page.markers
-                        |> List.groupBy (fun m -> m.name)
-                        |> List.map (fun (name, markers) ->
-                            {
-                                name = name
-                                markers = 
-                                    markers
-                                    |> List.map (fun m ->
-                                        {
-                                            name = m.name
-                                            color = m.color.ToArgb().ToString("X8")
-                                            txt = sprintf "<p>%s</p>" page.name
-                                            x = m.x
-                                            y = m.y
-                                        })
-                            })
-                })
-        JsonSerializer.Serialize (outputData, 
-            JsonSerializerOptions(PropertyNamingPolicy = JsonNamingPolicy.CamelCase))
-        |> writer.WriteLine
+let DoFile (pinMap: Map<string,PinRec>) (filePath:string) =
+    use reader = new StreamReader(filePath)
+    let json = reader.ReadToEnd()
+    let jsonDoc = JsonDocument.Parse(json)
+    let root = jsonDoc.RootElement
+    let name= root.GetProperty("name").GetString()
+    let pages = root.GetProperty("pages")
+    {name = name
+     pages = DoPages pages pinMap }
+    
+
+
         
         
 
 [<EntryPoint>]
 let main argv =
-    
     if argv.Length <> 2 then
         printfn "Usage: JournalToLoader <path to journal and scene files> <output file>"
         1
     else
         let filePath = argv.[0]
         let outputFile = argv.[1]
-        if not (File.Exists filePath) then
+        if not (Directory.Exists filePath) then
             printfn "File %s does not exist." filePath
             1
         else
             try
-                let jsonFiles= Directory.GetFiles (Path.GetDirectoryName filePath, "*.json")
+                let jsonFiles= Directory.GetFiles (filePath, "*.json")
+                let pinMap =
+                        jsonFiles
+                        |> Array.filter (fun file ->
+                            file.Contains "Scene")
+                        |> Array.fold (fun acc file ->
+                            ScanPins file
+                            |> Map.fold (fun (acc:Map<string,PinRec>) key value ->
+                                acc.Add(key, value)) acc
+                            ) Map.empty
+                printfn $"PinMap:\n {pinMap}"        
                 jsonFiles
                 |> Array.filter (fun file ->
                     file.Contains "JournalEntry")
-                |> Array.iter DoPage
-                 
-                jsonFiles
-                |> Array.filter (fun file ->
-                    file.Contains "Scene")
-                |> Array.iter DoMarkers
+                |> Array.map (fun fname ->
+                    DoFile pinMap fname)
+                |> Seq.iter (fun mapRec ->
+                    let options = JsonSerializerOptions(PropertyNamingPolicy = JsonNamingPolicy.CamelCase)
+                    let json = JsonSerializer.Serialize(mapRec, options)
+                    File.AppendAllText(outputFile, json + "\n")
+                )
                     
-                GenerateLoaderData outputFile pages
+           
                 0
             with
             | ex ->
