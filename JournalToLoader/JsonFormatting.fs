@@ -21,5 +21,6 @@ type OffsetRec = {
 }
 type MapRec = {
     name:string
+    mapURL: string
     groups: MarkerGroupRec seq
  }

@@ -102,7 +102,17 @@ let ReadScene (scenePath:string)  =
     let name= root.GetProperty("name").GetString()
     let pinMap = ScanPins (root.GetProperty("notes"))
     let mapname = name
-    (pinMap,mapname)
+    let mapURL = 
+        root.TryGetProperty("background")
+        |> function
+            | tpl when fst tpl = true ->
+                 (snd tpl).TryGetProperty("src")
+                |> function
+                    | path when fst path = true ->
+                        (snd path).GetString()
+                        | _ -> ""
+            | _ -> ""
+    (pinMap,mapname,mapURL)
    
     
 
@@ -133,8 +143,9 @@ let main argv =
                 | Some sceneFile ->
                     sceneFile
                     |>ReadScene 
-                    |> fun (pinMap, mapName) ->
+                    |> fun (pinMap, mapName, mapURL) ->
                             { name = mapName
+                              mapURL = mapURL
                               groups =
                                   DoGroups pinMap jsonFiles 
                             }
