@@ -1,4 +1,14 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
+﻿// JournalToLoader.fsx
+// This script reads journal and scene files,
+// extracts pin data, and outputs a JSON representation of the map.
+// To use this you must have one scene and all its associated journal
+// files in a directory. Only 1 scene can be processed per directory
+// It is designed to be run from the command line with two arguments:
+// 1. The path to the directory containing the scene and journal files.
+// 2. The output file path where the JSON will be saved.
+// Usage: JournalToLoader <path to journal and scene files> <output file>
+// Example: JournalToLoader "C:\Path\To\FileDirectory" "C:\Path\To\Output\map.json"
+
 
 open System.Drawing
 open System.IO
@@ -16,12 +26,8 @@ type PinRec= {
 
 
 
-let ScanPins(filepath:string) =
-    use reader = new StreamReader(filepath)
-    let json = reader.ReadToEnd()
-    let jsonDoc = JsonDocument.Parse(json)
-    let root = jsonDoc.RootElement
-    root.GetProperty("notes").EnumerateArray()
+let ScanPins (notes:JsonElement) =
+    notes.EnumerateArray()
     |> Seq.fold (fun (map:Map<string,PinRec>) note ->
         let entryId = note.GetProperty("entryId").GetString()
         let pageId = note.GetProperty("pageId").GetString()
@@ -42,14 +48,11 @@ let ScanPins(filepath:string) =
                           | _ -> None
                   | _ ->None
                
-                  
-                   
-               
-                        
         }
         map.Add(pageId, entry)
     ) Map.empty
  
+
 let DoPages (pages:JsonElement) (pinMap: Map<string,PinRec>) =
     pages.EnumerateArray()
     |> Seq.map(fun pageElement ->
@@ -77,25 +80,30 @@ let DoPages (pages:JsonElement) (pinMap: Map<string,PinRec>) =
                     y = y
                   }
         )
-let DoGroups pinMap (markers:JsonElement)=
-    markers.EnumerateArray()
-    |> Seq.map(fun groupElement ->
-            {
-              name = groupElement.GetProperty("name").GetString()
-              pages = DoPages (
-                        groupElement.GetProperty("pages")) pinMap
-            }
-        )
-
-let DoFile (pinMap: Map<string,PinRec>) (filePath:string) =
-    use reader = new StreamReader(filePath)
+let DoGroups pinMap (jsonFiles:string array)=
+    jsonFiles
+    |> Array.filter (fun file -> file.Contains "JournalEntry")
+    |> Array.map (fun file ->
+        use reader = new StreamReader(file)
+        let json = reader.ReadToEnd()
+        let jsonDoc = JsonDocument.Parse(json)
+        let root = jsonDoc.RootElement
+        let name = root.GetProperty("name").GetString()
+        let pages = root.GetProperty("pages")
+        { name = name
+          pages = DoPages pages pinMap
+        }
+    )
+let ReadScene (scenePath:string)  =
+    use reader = new StreamReader(scenePath)
     let json = reader.ReadToEnd()
     let jsonDoc = JsonDocument.Parse(json)
     let root = jsonDoc.RootElement
     let name= root.GetProperty("name").GetString()
-    let pages = root.GetProperty("pages")
-    {name = name
-     pages = DoPages pages pinMap }
+    let pinMap = ScanPins (root.GetProperty("notes"))
+    let mapname = name
+    (pinMap,mapname)
+   
     
 
 
@@ -111,35 +119,34 @@ let main argv =
         let filePath = argv.[0]
         let outputFile = argv.[1]
         if not (Directory.Exists filePath) then
-            printfn "File %s does not exist." filePath
+            printfn "Directory %s does not exist." filePath
             1
         else
-            try
-                let jsonFiles= Directory.GetFiles (filePath, "*.json")
-                let pinMap =
-                        jsonFiles
-                        |> Array.filter (fun file ->
-                            file.Contains "Scene")
-                        |> Array.fold (fun acc file ->
-                            ScanPins file
-                            |> Map.fold (fun (acc:Map<string,PinRec>) key value ->
-                                acc.Add(key, value)) acc
-                            ) Map.empty
-                printfn $"PinMap:\n {pinMap}"        
-                jsonFiles
-                |> Array.filter (fun file ->
-                    file.Contains "JournalEntry")
-                |> Array.map (fun fname ->
-                    DoFile pinMap fname)
-                |> Seq.iter (fun mapRec ->
-                    let options = JsonSerializerOptions(PropertyNamingPolicy = JsonNamingPolicy.CamelCase)
-                    let json = JsonSerializer.Serialize(mapRec, options)
-                    File.AppendAllText(outputFile, json + "\n")
-                )
-                    
-           
-                0
-            with
-            | ex ->
-                printfn "An error occurred: %s" ex.Message
-                1
+            let jsonFiles= Directory.GetFiles (filePath, "*.json")
+            jsonFiles
+            |> Array.tryFind (fun file ->
+                file.Contains "Scene")
+            |> function
+                | None -> 
+                    printfn "No scene file found in the specified directory."
+                    1
+                | Some sceneFile ->
+                    sceneFile
+                    |>ReadScene 
+                    |> fun (pinMap, mapName) ->
+                            { name = mapName
+                              groups =
+                                  DoGroups pinMap jsonFiles 
+                            }
+                    |> fun mapRec ->
+                        let options = JsonSerializerOptions(PropertyNamingPolicy = JsonNamingPolicy.CamelCase)
+                        let jsonString = JsonSerializer.Serialize(mapRec, options)
+                        File.WriteAllText(outputFile, jsonString)
+                        printfn "Map data written to %s" outputFile
+                        0  
+                                    
+                                    
+                            
+                        
+                
+            

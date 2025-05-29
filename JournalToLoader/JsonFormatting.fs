@@ -20,8 +20,6 @@ type OffsetRec = {
     y : float
 }
 type MapRec = {
-    campaignID : string
-    mapID : string
-    offsets : OffsetRec
+    name:string
     groups: MarkerGroupRec seq
  }
