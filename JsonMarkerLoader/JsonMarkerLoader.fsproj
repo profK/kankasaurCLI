@@ -32,6 +32,9 @@
         <Content Include="kanka.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+        <Content Include="Waterdeep.json">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>

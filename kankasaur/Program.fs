@@ -131,7 +131,7 @@ let main argv =
         | [ GetSubCommands.Campaign id ] -> GetCampaign id (GetOutputStream())
         | [ GetSubCommands.Map  (campaignID ,  mapID) ] ->
                     printfn "Output stream: %A" (GetOutputStream())
-                    GetMap campaignID mapID (GetOutputStream())
+                    GetMap campaignID mapID 
         | [ GetSubCommands.MapMarkers (campaignID ,  mapID) ] -> 
             //GetMapMarker campaignID mapID (GetOutputStream())
             printfn "Unimplemented: GetMapMarkers"
